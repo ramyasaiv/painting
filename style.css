@@ -120,11 +120,7 @@ nav ul ul ul {
     max-width: 100%;
     height: auto;
 }
-        section {
-            padding: 60px 0;
-           /* min-height: 100vh;*/
-        }
-
+        
 .sec-title{
   position:relative;
   z-index: 1;
