@@ -97,22 +97,8 @@ nav ul ul ul {
   color: #e8af29;
 }
 
-/* about start */
-h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {}
-        a,
-        a:hover,
-        a:focus,
-        a:active {
-            text-decoration: none;
-            outline: none;
-        }
-        
-        a,
+/* about start */ 
+       a,
         a:active,
         a:focus {
             color: #6f6f6f;
@@ -129,11 +115,7 @@ h1,
             -o-transition-duration: .2s;
         }
         
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
+      
         img {
     max-width: 100%;
     height: auto;
@@ -197,43 +179,6 @@ h1,
   margin-left: -25px;
 }
 
-.list-style-one{
-  position:relative;
-}
-
-.list-style-one li{
-  position:relative;
-  font-size:16px;
-  line-height:26px;
-  color: #222222;
-  font-weight:400;
-  padding-left:35px;
-  margin-bottom: 12px;
-}
-
-.list-style-one li:before {
-    content: "\f058";
-    position: absolute;
-    left: 0;
-    top: 0px;
-    display: block;
-    font-size: 18px;
-    padding: 0px;
-    color: #ff2222;
-    font-weight: 600;
-    -moz-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1.6;
-    font-family: "Font Awesome 5 Free";
-}
-
-.list-style-one li a:hover{
-  color: #44bce2;
-}
-
 .btn-style-one{
   position: relative;
   display: inline-block;
@@ -278,9 +223,7 @@ h1,
   font-weight: 400;
 }
 
-.about-section .list-style-one{
-  margin-bottom: 45px;
-}
+
 
 .about-section .btn-box{
   position: relative;
@@ -362,35 +305,8 @@ h1,
       border-radius: 46px;
 }
 
-.about-section .image-column .video-link{
-  position: absolute;
-  left: 70px;
-  top: 170px;
-}
 
-.about-section .image-column .video-link .link{
-  position: relative;
-  display: block;
-  font-size: 22px;
-  color: #191e34;
-  font-weight: 400;
-  text-align: center;
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 30px 50px rgba(8,13,62,.15);
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
 
-.about-section .image-column .video-link .link:hover{
-  background-color: #191e34;
-}
 
 
 
