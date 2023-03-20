@@ -653,12 +653,12 @@
 
 
 <script>
-  var form = document.getElementById("sheet1");
+  var form = document.getElementById("sheet2");
   form.addEventListener("submit", e => {
     e.preventDefault();
     fetch(form.action, {
       method: "POST",
-      body: new FormData(document.getElementById("sheet1")),
+      body: new FormData(document.getElementById("sheet2")),
     }).then(
       response => response.json()
     ).then((html) => {
