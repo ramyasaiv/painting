@@ -69,8 +69,8 @@ nav#cssmenu ul {
 }
 #cssmenu > ul > li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover {
 
-  text-decoration:underline;
-  text-color:#f82249;
+ text-decoration: underline;
+  text-decoration-color: #15fbff;
   -webkit-transition: background .3s ease;
   -ms-transition: background .3s ease;
   transition: background .3s ease;
